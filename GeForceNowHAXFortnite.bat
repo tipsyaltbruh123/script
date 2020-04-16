@@ -2,7 +2,7 @@
 @echo off
 title "Tipsy's Script - DM if there are problems or u want more programs!"
 cls
-color 1
+color 2
 mkdir B:\bruh\
 cls
 :Menu
@@ -66,7 +66,10 @@ B:
 cd B:\bruh\7-ZipPortable\App\7-Zip64
 ren 7zFM.exe awdwades.exe
 ren 7z.exe hawelp.exe
-start "" "awdwades.exe"
+echo close first 7zip window!!!!
+awdwades.exe
+pause
+start awdwades.exe
 cls
 goto Menu
 
