@@ -85,9 +85,9 @@ curl -O "https://picteon.dev/files51/WinXShell_x64-4.0.zip"
 cls
 cd WinXShell_x64-4.0
 cd WinXShell_x64-4.0
-"start.bat"
+start "" "start.bat"
 cls
-goto menu
+goto Menu
 
 :roblox
 C:
