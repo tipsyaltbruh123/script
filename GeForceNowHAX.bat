@@ -66,8 +66,9 @@ B:
 cd B:\bruh\7-ZipPortable\App\7-Zip64
 ren 7zFM.exe awdwades.exe
 ren 7z.exe hawelp.exe
+start "" "awdwades.exe"
 cls
-goto launch7
+goto Menu
 
 :launch7
 start awdwades.exe
