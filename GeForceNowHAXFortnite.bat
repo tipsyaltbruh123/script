@@ -16,7 +16,7 @@ echo 1 - auto!
 echo 2 - pick and choose!
 echo 3 - exit
 set /P c1= Which one do you want:
-if %c1%==1 goto Auto
+if %c1%==1 goto auto
 if %c1%==2 goto pick
 if %c1%==3 exit
 
