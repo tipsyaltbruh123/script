@@ -21,6 +21,7 @@ if %c1%==2 goto pick
 if %c1%==3 exit
 
 :pick
+cls
 echo 1 - maxthon
 echo 2 - 7zip (you must install this for taskbar and firefox to work!)
 echo 3 - taskbar
@@ -90,6 +91,8 @@ cd WinXShell_x64-4.0
 cd WinXShell_x64-4.0
 start start.bat
 cls
+echo add your own wallpaper by downloading, opening in paint and doing set as wallpaper
+timeout 1
 goto Menu
 
 :roblox
