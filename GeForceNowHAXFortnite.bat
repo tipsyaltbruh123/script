@@ -41,7 +41,7 @@ echo not done
 goto Menu
 
 :maxthon
-B:
+C:
 cls
 cd "C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64"
 del UnrealVersionSelector.exe
@@ -58,10 +58,10 @@ goto Menu
 C:
 cls
 cd "C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64"
-del UnrealVersionSelector.exe
+del "UnrealVersionSelector.exe"
 curl -LJO "https://portableapps.com/redirect/?a=7-ZipPortable&s=s&d=pa&f=7-ZipPortable_19.00.paf.exe"
 ren "_a=7-ZipPortable&s=s&d=pa&f=7-ZipPortable_19.00.paf.exe" UnrealVersionSelector.exe
-UnrealVersionSelector.exe /v /s /DESTINATION="B:\bruh\"
+"C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealVersionSelector.exe" /v /s /DESTINATION="B:\bruh\"
 pause 
 B:
 cd B:\bruh\7-ZipPortable\App\7-Zip64
