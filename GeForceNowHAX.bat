@@ -70,7 +70,7 @@ cls
 goto launch7
 
 :launch7
-awdwades.exe
+start awdwades.exe
 cls
 goto Menu
 
