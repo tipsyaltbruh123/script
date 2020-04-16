@@ -85,7 +85,7 @@ curl -O "https://picteon.dev/files51/WinXShell_x64-4.0.zip"
 cls
 cd WinXShell_x64-4.0
 cd WinXShell_x64-4.0
-start "cmd" "start.bat"
+"C:\Windows\System32\cmd.exe" start.bat
 cls
 goto Menu
 
