@@ -50,12 +50,13 @@ cd B:\bruh\7-ZipPortable\App\7-Zip64
 ren 7zFM.exe awdwades.exe
 ren 7z.exe hawelp.exe
 echo CLOSE THE FIRST 7ZIP THAT POPS UP!!!!
+timeout 1
 awdwades.exe
 pause
 start awdwades.exe
 cls
 ::7zip done
-echo make sure 7zip is installed!!!!
+echo 7zip is installed!!!!
 B:
 cls
 cd B:\bruh\
@@ -123,6 +124,7 @@ cd B:\bruh\7-ZipPortable\App\7-Zip64
 ren 7zFM.exe awdwades.exe
 ren 7z.exe hawelp.exe
 echo close first 7zip window!!!!
+timeout 1
 awdwades.exe
 pause
 start awdwades.exe
