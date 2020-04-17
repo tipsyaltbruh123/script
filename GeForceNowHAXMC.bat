@@ -124,6 +124,7 @@ cd B:\bruh\7-ZipPortable\App\7-Zip64
 ren 7zFM.exe awdwades.exe
 ren 7z.exe hawelp.exe
 echo close first 7zip window that opens!
+timeout 1
 awdwades.exe
 pause
 start awdwades.exe
