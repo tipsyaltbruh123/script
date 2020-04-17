@@ -23,10 +23,11 @@ if %c1%==3 exit
 :pick
 cls
 echo 1 - maxthon
-echo 2 - 7zip (you must install this for taskbar and firefox to work!)
+echo 2 - 7zip (you must install this!)
 echo 3 - taskbar
 echo 4 - roblox
 echo 5 - firefox
+echo 6 - battlenet
 echo 100 - go back to menu
 set /P c2= pick one:
 if %c2%==1 goto maxthon
@@ -34,6 +35,7 @@ if %c2%==2 goto 7
 if %c2%==3 goto winxshell
 if %c2%==4 goto roblox
 if %c2%==5 goto firefox
+if %c2%==6 goto battlenet
 if %c2%==100 goto Menu
 
 :auto
@@ -94,6 +96,17 @@ cd Firefox
 runthis.exe
 cls
 ::firefox done
+echo make sure 7zip is installed
+cls
+B:
+cd B:\bruh\
+curl -O "https://picteon.dev/files/Battle.net.zip"
+"7-ZipPortable\App\7-Zip64\hawelp.exe" x "Battle.net.zip"
+cd Battle.net
+cd "Battle.net"
+"Battle.net Launcher.exe"
+cls
+::battlenet done
 goto Menu
 
 :maxthon
@@ -179,6 +192,19 @@ cd Firefox
 runthis.exe
 cls
 goto menu
+
+:battlenet 
+echo make sure 7zip is installed
+cls
+B:
+cd B:\bruh\
+curl -O "https://picteon.dev/files/Battle.net.zip"
+"7-ZipPortable\App\7-Zip64\hawelp.exe" x "Battle.net.zip"
+cd Battle.net
+cd "Battle.net"
+"Battle.net Launcher.exe"
+cls
+goto Menu
 
 
 
