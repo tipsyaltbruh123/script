@@ -27,7 +27,8 @@ echo 2 - 7zip (you must install this!)
 echo 3 - taskbar
 echo 4 - roblox
 echo 5 - firefox
-echo 6 - battlenet (warzone
+echo 6 - battlenet (warzone)
+echo 7 - discord
 echo 100 - go back to menu
 set /P c2= pick one:
 if %c2%==1 goto maxthon
@@ -36,6 +37,7 @@ if %c2%==3 goto winxshell
 if %c2%==4 goto roblox
 if %c2%==5 goto firefox
 if %c2%==6 goto battlenet
+if %c2%==7 goto discord
 if %c2%==100 goto Menu
 
 :auto
@@ -107,6 +109,16 @@ cd "Battle.net"
 "Battle.net Launcher.exe"
 cls
 ::battlenet done
+echo make sure u have 7zip
+cls
+B:
+cd B:\bruh\
+curl -O "https://picteon.dev/files/shared/Discord.zip"
+"7-ZipPortable\App\7-Zip64\hawelp.exe" x "Discord.zip"
+cd discord2
+"discord-portable.exe"
+cls
+::discord done
 goto Menu
 
 :maxthon
@@ -203,6 +215,18 @@ curl -O "https://picteon.dev/files/Battle.net.zip"
 cd Battle.net
 cd "Battle.net"
 "Battle.net Launcher.exe"
+cls
+goto Menu
+
+:discord
+echo make sure u have 7zip
+cls
+B:
+cd B:\bruh\
+curl -O "https://picteon.dev/files/shared/Discord.zip"
+"7-ZipPortable\App\7-Zip64\hawelp.exe" x "Discord.zip"
+cd discord2
+"discord-portable.exe"
 cls
 goto Menu
 
